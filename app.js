@@ -47,7 +47,7 @@ app.get('/', (req, res) => {
 
 
     transporter.sendMail({
-    from: 'testing.webdesksolution@gmail.com',
+    from: 'umair.webdesk@gmail.com',
     to: 'umair.webdesk@gmail.com',
     subject: 'Test Email Subject',
     html: 'Dear umair.webdesk@gmail.com,<p></p><br>Enter following digits to complete your account password reset process<br><h2>12345</h2>'
